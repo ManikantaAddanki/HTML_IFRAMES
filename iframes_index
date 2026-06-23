@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe and Multimedia Integration</title>
+</head>
+<body>
+
+    <h1>Iframe and Multimedia Integration Assignment</h1>
+
+    <nav>
+        <a href="#image">Image</a> |
+        <a href="#audio">Audio</a> |
+        <a href="#video">Video</a> |
+        <a href="#website">Website</a>
+    </nav>
+
+    <hr>
+
+    <section id="image">
+        <h2>Image</h2>
+        <img src="https://static.sociofyme.com/photo/105000790/105000790.jpg"
+             alt="Nature Image" width="600">
+    </section>
+
+    <hr>
+
+    <section id="audio">
+        <h2>Audio</h2>
+        <audio controls>
+        <source src="massa.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+         </audio>
+    </section>
+
+    <hr>
+
+    <section id="video">
+        <h2>Video</h2>
+        <video width="600" controls>
+            <source src="C:\Users\91970\OneDrive\Desktop\HTML DAY-8\Kurchi Madathapetti Full Video Song.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <hr>
+
+    <section id="website">
+        <h2>Website</h2>
+        <iframe
+            src="https://en.wikipedia.org/wiki/Virat_Kohli"
+            width="800"
+            height="400"
+            title="Wikipedia">
+        </iframe>
+    </section>
+
+</body>
+</html>
